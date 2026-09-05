@@ -1,0 +1,588 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "a40d9ac0-d785-4ba6-8d64-2f86d60f2623")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy -26.67 -13.97) (xy -60.96 -13.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "704ba342-2876-4c23-9a24-e1b6d6287c9e")
+	)
+	(wire
+		(pts
+			(xy -66.04 -27.94) (xy -66.04 -10.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "856f223f-4319-49ca-9f78-066e00c6ae9e")
+	)
+	(wire
+		(pts
+			(xy -66.04 -10.16) (xy -26.67 -10.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8caef159-c52d-426a-9f65-b3ad5cfa8791")
+	)
+	(wire
+		(pts
+			(xy -60.96 -29.21) (xy -60.96 -13.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7feaa12-4ee2-41be-8bd8-c7a4796c1003")
+	)
+	(wire
+		(pts
+			(xy -69.85 -6.35) (xy -12.7 -6.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d32d0098-f65c-4665-8d9a-3cf73ff2a786")
+	)
+	(wire
+		(pts
+			(xy -69.85 -2.54) (xy -12.7 -2.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5ebb10d-6d8c-447d-b2c0-7c3abde533ec")
+	)
+	(global_label "BNO055_SCL"
+		(shape input)
+		(at -66.04 -27.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1d80ee8d-21f9-47d9-b16a-00a1d1452c37")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at -81.0599 -27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "BNO055_SDA"
+		(shape input)
+		(at -69.85 -6.35 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4c34ebb5-d24c-46ab-a027-00935ca326e5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at -69.85 -21.4304 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "BNO055_SCL"
+		(shape input)
+		(at -26.67 -10.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6eae295b-d3e1-473c-8383-b2f3f9858ee8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at -11.6501 -10.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "BNO055_SDA"
+		(shape input)
+		(at -60.96 -29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b5712d01-22f3-496b-9860-cc137a07aa22")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at -45.8796 -29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "BNO055_SDA"
+		(shape input)
+		(at -12.7 -6.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c19d1ef5-f6c4-4d7a-8449-10ddb91ec5ac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 2.3804 -6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "BNO055_SCL"
+		(shape input)
+		(at -12.7 -2.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cca251fc-ce4e-49d1-ae3f-06cd48b858f9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 2.3199 -2.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "BNO055_SCL"
+		(shape input)
+		(at -69.85 -2.54 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e61e33bc-f7d7-4336-a6ad-95f3f5530527")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at -69.85 12.4799 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "BNO055_SDA"
+		(shape input)
+		(at -26.67 -13.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f5a28535-e093-4814-969c-80d84ada0557")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at -11.5896 -13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(sheet
+		(at -35.56 -21.59)
+		(size 375.92 262.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "1aa73a56-4a37-467e-9f04-3f6378a3da1e")
+		(property "Sheetname" "Environment_Sensors"
+			(at -35.56 -22.3016 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Environment_Sensors.kicad_sch"
+			(at -35.56 241.8846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ARACHIND-X_V1"
+				(path "/a40d9ac0-d785-4ba6-8d64-2f86d60f2623"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at -57.15 -36.83)
+		(size 469.9 320.04)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "217b7fae-fd51-47e3-98b1-78f8cf07be3a")
+		(property "Sheetname" "Indicators"
+			(at -57.15 -37.5416 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Indicators.kicad_sch"
+			(at -57.15 283.7946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ARACHIND-X_V1"
+				(path "/a40d9ac0-d785-4ba6-8d64-2f86d60f2623"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at -12.7 -8.89)
+		(size 318.77 219.71)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "384f9817-057d-477b-a63d-0d7f7d147a92")
+		(property "Sheetname" "ESP32_Core"
+			(at -12.7 -9.6016 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP32_Core.kicad_sch"
+			(at -12.7 211.4046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ARACHIND-X_V1"
+				(path "/a40d9ac0-d785-4ba6-8d64-2f86d60f2623"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at -48.26 -34.29)
+		(size 427.99 304.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6e1180db-0a21-4d2f-8e77-0d62a6f95a31")
+		(property "Sheetname" "USB_Programming"
+			(at -48.26 -35.0016 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB_Programming.kicad_sch"
+			(at -48.26 271.0946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ARACHIND-X_V1"
+				(path "/a40d9ac0-d785-4ba6-8d64-2f86d60f2623"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at -7.62 -6.35)
+		(size 304.8 215.9)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "85f9dbe5-b267-4296-813c-3f76cb406efe")
+		(property "Sheetname" "Power _ Management"
+			(at -7.62 -7.0616 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_Management.kicad_sch"
+			(at -7.62 210.1346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ARACHIND-X_V1"
+				(path "/a40d9ac0-d785-4ba6-8d64-2f86d60f2623"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at -40.64 -26.67)
+		(size 397.51 283.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8e722347-b7d1-4035-a0c0-0667256ef46b")
+		(property "Sheetname" "Power_Monitor"
+			(at -40.64 -27.3816 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_Monitor.kicad_sch"
+			(at -40.64 257.1246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ARACHIND-X_V1"
+				(path "/a40d9ac0-d785-4ba6-8d64-2f86d60f2623"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at -26.67 -16.51)
+		(size 355.6 246.38)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f7745cd7-bb76-471b-ab79-e1a5ad8e7846")
+		(property "Sheetname" "Motion_Sensors"
+			(at -26.67 -17.2216 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Motion_Sensors.kicad_sch"
+			(at -26.67 230.4546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ARACHIND-X_V1"
+				(path "/a40d9ac0-d785-4ba6-8d64-2f86d60f2623"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
